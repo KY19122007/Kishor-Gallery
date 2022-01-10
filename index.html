@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishor Gallery</title>
+   <style>
+       *{
+            box-sizing: border-box;
+        }
+        .container{
+            width: 90%;
+            margin: auto;
+            background-color:aqua;
+            
+        }
+        .container div{
+                width: 24%;
+                display: inline-block;
+                overflow: hidden;
+        }
+        .container div img{
+            width: 100%;
+            transition: transform 1s ease-in-out;
+            padding: 10px;
+        }
+        .container img:hover{
+            transform: scale(1.2);
+        }
+        @media (max-width: 1200px ){
+            .container div{
+                width: 25%;}
+              
+        
+        }
+        @media (max-width: 900px){
+            .container div{
+                width: 50%;}
+             
+            
+        }
+        @media ( max-width: 600px){
+            .container div{
+                width: 75%;}
+              
+            
+        }
+        
+   </style>
+    
+</head>
+<body>
+     <div class="container"> <center><h1>Kishor's Gallery</h1></center>
+        <div><img src="antoine-pluss-MJi8Muk1k3Q-unsplash.jpg" alt=""></div>  
+        <div><img src="debbie-molle-6DSID8Ey9-U-unsplash.jpg" alt=""></div>  
+        <div><img src="harshil-gudka-fGvBIWgUifo-unsplash.jpg" alt=""></div>  
+        <div><img src="harshil-gudka-ORcQipPJAy4-unsplash (3).jpg" alt=""></div>  
+        <div><img src="mika-brandt-JhFz0c7N-vg-unsplash.jpg" alt=""></div> 
+        <div><img src="praniket-desai-jwqgM5o6TVM-unsplash.jpg" alt=""></div> 
+        <div><img src="satyawan-narinedhat-xDzzAJodg4U-unsplash.jpg" alt=""></div> 
+        <div><img src="the-lucky-neko-rplhB9mYF48-unsplash.jpg" alt=""></div></div>
+        
+     
+     
+    
+</body>
+</html>
